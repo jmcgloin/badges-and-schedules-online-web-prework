@@ -9,7 +9,7 @@ def batch_badge_creator(ar)
 end
 
 def assign_rooms(ar)
-  rooms = (1..ar.count)
+  rooms = (0..ar.count - 1)
   assigns = []
   for room in rooms do
     assigns.push("Hello, #{ar[room]}! You'll be assigned to room #{room}!")
