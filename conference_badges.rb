@@ -14,6 +14,7 @@ def assign_rooms(ar)
   for room in rooms do
     assigns.push("Hello, #{ar[room]}! You'll be assigned to room #{room}!")
   end
+  assigns
 end
 
 def printer(speakers)
