@@ -10,8 +10,9 @@ end
 
 def assign_rooms(ar)
   rooms = (1..ar.count)
+  assigns = []
   for room in rooms do
-    "Hello, #{ar[room]}! You'll be assigned to room #{room}!"
+    assigns.push("Hello, #{ar[room]}! You'll be assigned to room #{room}!")
   end
 end
 
